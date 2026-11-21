@@ -14,14 +14,14 @@ python main.py
 ---
 ---
 
-# Expected Output
+## Expected Output
 
-## Daily Log & Error Digest
+#### Daily Log & Error Digest
 - **Total Lines Scanned:** 9
 - **Total Errors Found:** 6
 - **Unique Error Signatures:** 3
 
-## Top Recurring Issues
+#### Top Recurring Issues
 1. **[3x]** `ERROR [PaymentGateway] TimeoutException: Upstream bank API did not respond within 5000ms (tx_id=*)`
 2. **[2x]** `ERROR [OrderWorker] NullPointerException: Cannot invoke "Order.getItems()" because "order" is null (order_id=*)`
 3. **[1x]** `ERROR [DBPool] SQLException: Connection pool exhausted (active=*, max=*)`
