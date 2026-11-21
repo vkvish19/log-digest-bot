@@ -1,0 +1,9 @@
+2026-11-21 09:01:12 INFO  [AuthService] User login succeeded user_id=4821
+2026-11-21 09:02:45 ERROR [PaymentGateway] TimeoutException: Upstream bank API did not respond within 5000ms (tx_id=99102)
+2026-11-21 09:03:10 WARN  [CacheManager] Redis connection latency spike: 420ms
+2026-11-21 09:04:01 ERROR [PaymentGateway] TimeoutException: Upstream bank API did not respond within 5000ms (tx_id=99108)
+2026-11-21 09:05:19 ERROR [OrderWorker] NullPointerException: Cannot invoke "Order.getItems()" because "order" is null (order_id=7741)
+2026-11-21 09:06:33 INFO  [HealthCheck] All worker threads healthy
+2026-11-21 09:08:12 ERROR [PaymentGateway] TimeoutException: Upstream bank API did not respond within 5000ms (tx_id=99115)
+2026-11-21 09:09:44 ERROR [DBPool] SQLException: Connection pool exhausted (active=50, max=50)
+2026-11-21 09:11:02 ERROR [OrderWorker] NullPointerException: Cannot invoke "Order.getItems()" because "order" is null (order_id=7749)
